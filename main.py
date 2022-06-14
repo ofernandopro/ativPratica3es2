@@ -21,7 +21,7 @@ def getAreaTrapezio(l1, l2, h) -> float:
 
 def getCapitalizedWithPoint(s) -> str:
     s = s.capitalize()
-    if s.endswith('.'):
+    if s.endswith('.'): 
         return s
     else:
         return s + '.'
