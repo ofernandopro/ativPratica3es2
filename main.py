@@ -14,3 +14,4 @@ def to_sentence(s) -> str:
         return s
     else:
         return s + '.'
+
