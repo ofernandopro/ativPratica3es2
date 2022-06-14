@@ -7,10 +7,10 @@ def test_add():
     assert main.add(-10, -12) == -22
 
 def test_sub():
-    assert main.sub(3, 4) == -1
-    assert main.sub(4.5, 4) == 0
-    assert main.sub(3.9, 4) == -1
-    assert main.sub(4.2, 3.8) == 0
+    assert main.sub(5, 1) == 4
+    assert main.sub(-10, 12) == -22
+    assert main.sub(-1, -2) == -3
+    assert main.sub(5, -6.5) == 11.5
 
 def test_to_sentence():
     assert main.to_sentence('engenharia') == 'Engenharia.'
