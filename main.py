@@ -15,8 +15,8 @@ def div(a, b) -> int:
 
 def getAreaTrapezio(l1, l2, h) -> float:
     soma = add(l1, l2)
-    mult = mult(soma, h)
-    area = div(mult, 2)
+    result = mult(soma, h)
+    area = div(result, 2)
     return area
 
 def to_sentence(s) -> str:
