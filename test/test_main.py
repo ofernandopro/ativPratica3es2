@@ -9,7 +9,7 @@ def test_add():
 def test_sub():
     assert main.sub(5, 1) == 4
     assert main.sub(-10, 12) == -22
-    assert main.sub(-1, -2) == -3
+    assert main.sub(-1, -2) == 1
     assert main.sub(5, -6.5) == 11.5
 
 def test_to_sentence():
