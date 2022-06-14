@@ -12,6 +12,11 @@ def test_sub():
     assert main.sub(-1, -2) == 1
     assert main.sub(5, -6.5) == 11.5
 
+def test_area_trapezio():
+    assert main.getAreaTrapezio(4, 2, 1) == 3
+    assert main.getAreaTrapezio(5, 2, 6) == 21
+    assert main.getAreaTrapezio(1, 2, 3) == 4.5
+
 def test_to_sentence():
     assert main.to_sentence('engenharia') == 'Engenharia.'
     assert main.to_sentence('Engenharia software') == 'Engenharia software.'
