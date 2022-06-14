@@ -18,6 +18,6 @@ def test_area_trapezio():
     assert main.getAreaTrapezio(1, 2, 3) == 4.5
 
 def test_getCapitalizedWithPoint():
-    assert main.to_sentence('engenharia') == 'Engenharia.'
-    assert main.to_sentence('Engenharia software') == 'Engenharia software.'
-    assert main.to_sentence('Engenharia software.') == 'Engenharia software.'
+    assert main.getCapitalizedWithPoint('engenharia') == 'Engenharia.'
+    assert main.getCapitalizedWithPoint('Engenharia software') == 'Engenharia software.'
+    assert main.getCapitalizedWithPoint('Engenharia software.') == 'Engenharia software.'
